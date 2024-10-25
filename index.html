@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+   integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+   crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./styles.css"></link>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+<script src="./script.js"></script>
+<link rel="icon" href="./assets/icon3.jpg"></link>
+</head>
+<body>
+   <!--navbar starts-->
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light .nav-color ">
+    <div class="container-fluid">
+        <a class="navbar-brand h1 brand-anim" href="#">
+            <img src="./assets/ma logo2.jpg " alt="" width="40" height="30" class=" logo-anim d-inline-block align-text-top ">
+            SnapFolio
+          </a>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button><!--button appears when screen size is reduced-->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">  <!--justify-content-end is to send the content to end-->
+          <li class="nav-item mx-4 ">
+            <a class="nav-link active text-primary link-anim" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./library.html">Library</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./contribute.html">Contribute</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./about.html">About Us</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav><!--navbar ends-->
+  <!--<div class="container1">
+    <form action="">
+      <input type="text" placeholder="search anything" name="q">
+      <button type="submit"><img src=""></button>
+
+    </form>
+  </div>-->
+  <div class="background-image mx-4 ">
+    <div class="search-container">
+      <form action="https://www.pexels.com/search" method="get">
+        <input type="text" placeholder="Search for free photos...">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  
+    <div class="trending-container">
+      <h2>Trending:</h2>
+      <ul>
+        <li>cross</li>
+        <li>nature</li>
+        <li>sky</li>
+        <li>dark</li>
+        <li>space</li>
+      </ul>
+    </div>
+  
+    
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="card mx-3 " style="width: 20rem;">
+        <img src="./assets/nature2.jpg " onclick="displayImage(this)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nature</h5>
+          <p class="card-text">To check out more picture like this click on this button below.</p>
+          <a href="./nature.html" class="btn btn-primary button-anim">More...</a>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem;">
+        <img src="./assets/pexels-jonathan-s-16107955.jpg " onclick="displayImage(this)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Beach</h5>
+          <p class="card-text">To check out more picture like this click on this button below.</p>
+          <a href="./beach.html" class="btn btn-primary button-anim">More...</a>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem;">
+        <img src="./assets/abc1.jpg " onclick="displayImage(this)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Abstract</h5>
+          <p class="card-text">To check out more picture like this click on this button below.</p>
+          <a href="./abstract.html" class="btn btn-primary button-anim">More...</a>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem;">
+        <img src="./assets/c3.jpg " onclick="displayImage(this)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cars</h5>
+          <p class="card-text">To check out more picture like this click on this button below.</p>
+          <a href="./car.html" class="btn btn-primary button-anim">More...</a>
+        </div>
+      </div><div class="card mx-3 my-3" style="width: 18rem;">
+        <img src="./assets/g3.jpg " onclick="displayImage(this)" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Portraits</h5>
+          <p class="card-text">To check out more picture like this click on this button below.</p>
+          <a href="./portrait.html" class="btn btn-primary button-anim">More...</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <a href="./about.html" class="btn btn-primary button-anim">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--footer start-->
+  <footer>
+    <hr class="footer mx-5">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col text-center">
+            <p class="lead"><i class="bi bi-c-circle"></i>
+              copyights@snapfolio</p>
+            <i class="bi bi-telephone"></i>
+              <a href="tel:8328648990"class="footer-links">8328648990</a></p>
+            <p class="lead"><i class="bi bi-envelope"></i>
+            <a href="mailto:sureshkumarmani126@gmail.com" class="footer-links">snapfolio@gmail.com</a> </p>
+        </div>
+      </div>
+    </div>
+    
+  
+  </footer> <!--footer end-->
+</body>
+</html>

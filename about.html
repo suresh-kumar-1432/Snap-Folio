@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
+  </link>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/icon3.jpg"></link>
+  <script src="./script.js"></script>
+</head>
+<body> 
+   <!--navbar starts-->
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light .nav-color ">
+    <div class="container-fluid">
+        <a class="navbar-brand h1 brand-anim" href="#">
+            <img src="./assets/ma logo2.jpg " alt="" width="40" height="30" class=" logo-anim d-inline-block align-text-top ">
+            SnapFolio
+          </a>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button><!--button appears when screen size is reduced-->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">  <!--justify-content-end is to send the content to end-->
+          <li class="nav-item mx-4 ">
+            <a class="nav-link link-anim" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./library.html">Library</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./contribute.html">Contribute</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active text-primary link-anim" href="./about.html">About Us</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav><!--navbar ends-->
+      
+      
+  <h1 class="display-2 fw-bold mx-4 ">About us</h1>
+  <p  class="p mx-4" > Welcome to SnapFolio, your go-to destination for high-quality, royalty-free images.
+     Our mission is to provide a vast collection of pictures that can be used by anyone, for any purpose, without the worry of copyright issues.Our team of experienced photographers and graphic designers work tirelessly to curate an extensive library of images that covers a broad range of topics and styles. Whether you're looking for stunning landscapes, captivating portraits, or eye-catching abstract designs, we've got you covered.</p>
+     <p  class="p mx-4" >We believe that everyone should have access to top-notch visuals to help bring their creative projects to life. That's why all of our images are available for download and use at no cost, and without any restrictions. Whether you're a blogger, marketer, educator, or just someone who loves to create, you can use our images to enhance your work without worrying about legal issues.
+
+      We take great pride in the quality of our images and strive to provide a user-friendly experience for all of our visitors. Our search function allows you to easily find the images you need, and our intuitive interface makes it simple to download and use them in your projects. </p>
+      <p  class="p mx-4" >At SnapFolio, we're passionate about empowering creatives around the world to unleash their full potential. Join our community of users and start exploring our library of stunning images today!
+
+        Thank you for choosing SnapFolio.</p>
+  
+  
+  
+  <!--form part start-->
+  <div class="row justify-content-center">
+    <div class="col-2">
+      <img src="./assets/contactusimg.jpg" alt="phone" width="300" class="img-fluid">
+    </div>
+  <div class="col-5">
+    <h1 class="display-3 fw-normal hero-txt-color">Contact Us</h1>
+    <form action="https://formsubmit.co/sureshkumarmani126@gmail.com" method="POST"> <!--this action i copied from FormSubmit webpage-->
+        <div class="mb-3">
+          <label for="username" class="form-label">name</label>
+          <input type="textarea" class="form-control" id="username"  name="username">
+        
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" name="Email">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="userphone" class="form-label">Phone no</label>
+          <input type="tel" class="form-control" id="userphone" name="userphone">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+    <!--form part end-->
+     <!--footer start-->
+  <footer>
+    <hr class="footer mx-5"width=/>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col text-center">
+            <p class="lead"><i class="bi bi-c-circle"></i>
+              copyights@snapfolio</p>
+            <i class="bi bi-telephone"></i>
+              <a href="tel:8328648990"class="footer-links">8328648990</a></p>
+            <p class="lead"><i class="bi bi-envelope"></i>
+            <a href="mailto:sureshkumarmani126@gmail.com" class="footer-links">snapfolio@gmail.com</a> </p>
+        </div>
+      </div>
+    </div>
+    
+  
+  </footer> <!--footer end-->
+</body>
+</html>

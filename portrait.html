@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portraits</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+    crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+ integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+ crossorigin="anonymous"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="./styles.css"></link>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+ <script src="./script.js"></script>
+ <link rel="icon" href="./assets/icon3.jpg"></link>
+</head>
+<body>
+     <!--navbar starts-->
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light .nav-color">
+    <div class="container-fluid">
+        <a class="navbar-brand h1 brand-anim" href="#">
+            <img src="./assets/ma logo2.jpg " alt="" width="40" height="30" class=" logo-anim d-inline-block align-text-top ">
+            SnapFolio
+          </a>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button><!--button appears when screen size is reduced-->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">  <!--justify-content-end is to send the content to end-->
+          <li class="nav-item mx-4 ">
+            <a class="nav-link link-anim" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim " href="./library.html">Library</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./contribute.html">Contribute</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link link-anim" href="./about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><!--navbar ends-->
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Image Library</title>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+  
+      .item {
+        flex-basis: 25%;
+        padding: 10px;
+      }
+  
+      .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="txt portraits mx-4 ">Portraits</h1>
+
+    <div class="container">
+      <div class="item">
+        <img src="./assets/g1.jpg" onclick="displayImage(this)">
+
+      </div>
+      <div class="item">
+        <img src="./assets/g2.jpg" onclick="displayImage(this)">
+       
+      </div>
+      <div class="item">
+        <img src="./assets/g3.jpg" onclick="displayImage(this)">
+        
+      </div>
+      <div class="item">
+        <img src="./assets/g4.jpg" onclick="displayImage(this)">
+        
+      </div>
+      <div class="item">
+        <img src="./assets/g5.jpg" onclick="displayImage(this)">
+       
+      </div>
+      <div class="item">
+        <img src="./assets/g6.jpg" onclick="displayImage(this)">
+       
+      </div>
+      <div class="item">
+        <img src="./assets/g7.jpg" onclick="displayImage(this)">
+        
+      </div>
+      <div class="item">
+        <img src="./assets/g8.jpg" onclick="displayImage(this)">
+      
+      </div>
+      
+      <a href="./index.html" class="btn btn-secondary button-anim">  Back</a>
+      <!-- add more image items here -->
+    </div>
+  </body>
+  </html>
+  
+
+   <!--footer start-->
+   <footer>
+    <hr class="footer mx-5"width=""/>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col text-center">
+            <p class="lead"><i class="bi bi-c-circle"></i>
+              copyights@snapfolio</p>
+            <i class="bi bi-telephone"></i>
+              <a href="tel:8328648990"class="footer-links">8328648990</a></p>
+            <p class="lead"><i class="bi bi-envelope"></i>
+            <a href="mailto:sureshkumarmani126@gmail.com" class="footer-links">snapfolio@gmail.com</a> </p>
+        </div>
+      </div>
+    </div>
+    
+  
+  </footer> <!--footer end-->
+</body>
+</html>
